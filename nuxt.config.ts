@@ -7,6 +7,7 @@ export default defineNuxtConfig({
   css: [
     "swiper/css", // basic Swiper styles
     "@/assets/main.css",
+    "@fortawesome/fontawesome-free/css/all.min.css",
   ],
 
   build: {
