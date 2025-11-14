@@ -15,7 +15,7 @@ const BASE_VIDEOS: Omit<Reel, "id">[] = [
 ];
 
 // Make a longer list (simulate ~100 later if you want)
-const ALL_REELS: Reel[] = Array.from({ length: 24 }).map((_, i) => {
+const ALL_REELS: Reel[] = Array.from({ length: 100 }).map((_, i) => {
   const base = BASE_VIDEOS[i % BASE_VIDEOS.length];
   return {
     id: i + 1,
